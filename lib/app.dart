@@ -5,15 +5,18 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:senior_client/color_schemes.dart';
+import 'package:one_day_one_fill_client/color_schemes.dart';
+import 'package:one_day_one_fill_client/splash/v_splash.dart';
 
 part 'app_routes.dart';
 
-class SeniorApp extends StatelessWidget {
-  static const String appName = "진격의 오리(앱이름가제)";
+class OneDayOneFillApp extends StatelessWidget {
+  /// ko ver. 하루한알
+  /// en ver. one-day-one-fill
+  static const String appName = "하루한알";
   static const String appFontFamily = "NotoSansKR";
 
-  const SeniorApp({super.key});
+  const OneDayOneFillApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +27,7 @@ class SeniorApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
         colorScheme: lightColorScheme,
-        fontFamily: SeniorApp.appFontFamily,
+        fontFamily: OneDayOneFillApp.appFontFamily,
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
       ),
@@ -32,7 +35,7 @@ class SeniorApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         useMaterial3: true,
         colorScheme: darkColorScheme,
-        fontFamily: SeniorApp.appFontFamily,
+        fontFamily: OneDayOneFillApp.appFontFamily,
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
       ),
