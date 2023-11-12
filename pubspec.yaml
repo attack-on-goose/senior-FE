@@ -12,10 +12,12 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_dotenv: ^5.0.2
+  flutter_launcher_icons: ^0.13.1
   flutter_riverpod: ^2.3.6
   flutter_svg: ^2.0.7
   go_router: ^10.0.0
   kakao_flutter_sdk_user: ^1.3.1
+  tap_debouncer: ^2.2.0
 
 dev_dependencies:
   flutter_test:
@@ -31,11 +33,11 @@ flutter:
   fonts:
     - family: NotoSansKR
       fonts:
-        - asset: assets/fonts/noto_sans_kr/NotoSansKR-Regular.otf
+        - asset: assets/fonts/Pretendard/Pretendard-Regular.otf
           weight: 400
-        - asset: assets/fonts/noto_sans_kr/NotoSansKR-Medium.otf
+        - asset: assets/fonts/Pretendard/Pretendard-Medium.otf
           weight: 500
-        - asset: assets/fonts/noto_sans_kr/NotoSansKR-Bold.otf
+        - asset: assets/fonts/Pretendard/Pretendard-Bold.otf
           weight: 700
-        - asset: assets/fonts/noto_sans_kr/NotoSansKR-Black.otf
+        - asset: assets/fonts/Pretendard/Pretendard-Black.otf
           weight: 900

@@ -6,5 +6,8 @@
 import 'package:one_day_one_fill_client/app.dart';
 
 class SplashViewModel {
-  Future<AppRoutes> whereToGo() async => AppRoutes.LOGIN;
+  Future<AppRoutes> whereToGo() async {
+    await Future.delayed(const Duration(milliseconds: 1500));
+    return AppRoutes.HOME;
+  }
 }

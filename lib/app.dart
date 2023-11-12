@@ -6,6 +6,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:one_day_one_fill_client/color_schemes.dart';
+import 'package:one_day_one_fill_client/home/v_home.dart';
+import 'package:one_day_one_fill_client/quiz/v_quiz.dart';
 import 'package:one_day_one_fill_client/splash/v_splash.dart';
 
 part 'app_routes.dart';
@@ -14,7 +16,7 @@ class OneDayOneFillApp extends StatelessWidget {
   /// ko ver. 하루한알
   /// en ver. one-day-one-fill
   static const String appName = "하루한알";
-  static const String appFontFamily = "NotoSansKR";
+  static const String appFontFamily = "Pretendard";
 
   const OneDayOneFillApp({super.key});
 
